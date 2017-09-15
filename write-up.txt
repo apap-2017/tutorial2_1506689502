@@ -1,0 +1,22 @@
+Latihan Project Hello World:
+1. Tidak compile error
+   Hello,world! tidak muncul
+
+2. Tidak compile error
+   Hello,world! muncul
+
+3. Tidak compile error
+   page hello sebelumnya tidak muncul.
+
+   string yang di return tersebut menandakan bahwa program akan mencari file html sesuai dengan string return tersebut dan menampilkannya di web browser.
+
+Latihan Request Parameter:
+1. hasilnya whitelabel error page
+2. hasilnya whitelabel error page.
+   setelah header diubah, page tidak error tetapi nama tidak terdefinisi (null). page menampilkan "Selamat datang null!"
+3. page menampilkan "Selamat datang dunia!"
+4. Karena "th:text" tersebut menggantikan atau menimpa "sapaan untuk 	user" tersebut sehingga,tulisan "Sapaan untuk user" tidak muncul
+
+Latihan Path Variable:
+1. page menampilkan "Selamat datang dunia"
+   ketika method diubah dan diakses localhost:8080/greeting/, page error. Ketika diakses localhost:8080/greeting/chanek, page menampilan "selamat datang chanek!"
